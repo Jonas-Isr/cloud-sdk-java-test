@@ -244,9 +244,9 @@
         }
       }
     },
-    "value" : 3.8453933773082714,
+    "value" : 2.3844488844488843,
     "weight" : 1.0,
-    "confidence" : 9.645390070921987,
+    "confidence" : 7.179487179487181,
     "usedValues" : [ {
       "type" : "ScoreValue",
       "score" : {
@@ -501,7 +501,7 @@
           }
         }
       },
-      "value" : 6.565656565656565,
+      "value" : 4.545454545454545,
       "weight" : 1.0,
       "confidence" : 10.0,
       "usedValues" : [ {
@@ -724,7 +724,7 @@
             }
           }
         },
-        "value" : 4.444444444444445,
+        "value" : 0.0,
         "weight" : 1.0,
         "confidence" : 9.999999999999998,
         "usedValues" : [ {
@@ -862,7 +862,7 @@
             "type" : "CodeqlScore",
             "name" : "How a project uses CodeQL"
           },
-          "value" : 10.0,
+          "value" : 0.0,
           "weight" : 1.0,
           "confidence" : 10.0,
           "usedValues" : [ {
@@ -871,7 +871,7 @@
               "type" : "BooleanFeature",
               "name" : "If a project runs CodeQL checks for commits"
             },
-            "flag" : true,
+            "flag" : false,
             "explanation" : [ ]
           }, {
             "type" : "BooleanValue",
@@ -879,7 +879,7 @@
               "type" : "BooleanFeature",
               "name" : "If a project runs CodeQL scans"
             },
-            "flag" : true,
+            "flag" : false,
             "explanation" : [ ]
           }, {
             "type" : "LanguagesValue",
@@ -1262,22 +1262,19 @@
         "type" : "UnpatchedVulnerabilitiesScore",
         "name" : "How well vulnerabilities are patched"
       },
-      "value" : 10.0,
+      "value" : 0.0,
       "weight" : 0.5,
-      "confidence" : 10.0,
+      "confidence" : 0.0,
       "usedValues" : [ {
-        "type" : "VulnerabilitiesValue",
+        "type" : "UnknownValue",
         "feature" : {
           "type" : "VulnerabilitiesFeature",
           "name" : "Info about vulnerabilities in open-source project"
         },
-        "vulnerabilities" : {
-          "entries" : [ ]
-        },
         "explanation" : [ ]
       } ],
-      "explanation" : [ "No unpatched vulnerabilities found which is good" ],
-      "isUnknown" : false,
+      "explanation" : [ ],
+      "isUnknown" : true,
       "isNotApplicable" : false,
       "feature" : {
         "type" : "UnpatchedVulnerabilitiesScore",
@@ -1330,7 +1327,7 @@
         "type" : "ProjectActivityScore",
         "name" : "Open-source project activity score"
       },
-      "value" : 7.915384615384617,
+      "value" : 8.23846153846154,
       "weight" : 0.5,
       "confidence" : 10.0,
       "usedValues" : [ {
@@ -1339,7 +1336,7 @@
           "type" : "PositiveIntegerFeature",
           "name" : "Number of commits in the last three months"
         },
-        "number" : 49,
+        "number" : 51,
         "explanation" : [ ]
       }, {
         "type" : "IntegerValue",
@@ -1350,7 +1347,7 @@
         "number" : 2,
         "explanation" : [ ]
       } ],
-      "explanation" : [ "49 commits in the last 3 months results to 7.54 points", "2 contributors increase the score value from 7.54 to 7.92" ],
+      "explanation" : [ "51 commits in the last 3 months results to 7.85 points", "2 contributors increase the score value from 7.85 to 8.24" ],
       "isUnknown" : false,
       "isNotApplicable" : false,
       "feature" : {
@@ -1519,17 +1516,14 @@
         },
         "name" : "Assesses security testing and vulnerability discovery"
       },
-      "value" : 2.0,
+      "value" : 0.0,
       "weight" : 0.6,
-      "confidence" : 10.0,
+      "confidence" : 5.0,
       "usedValues" : [ {
-        "type" : "VulnerabilitiesValue",
+        "type" : "UnknownValue",
         "feature" : {
           "type" : "VulnerabilitiesFeature",
           "name" : "Info about vulnerabilities in open-source project"
-        },
-        "vulnerabilities" : {
-          "entries" : [ ]
         },
         "explanation" : [ ]
       }, {
@@ -1625,7 +1619,7 @@
             }
           }
         },
-        "value" : 6.565656565656565,
+        "value" : 4.545454545454545,
         "weight" : 1.0,
         "confidence" : 10.0,
         "usedValues" : [ {
@@ -1848,7 +1842,7 @@
               }
             }
           },
-          "value" : 4.444444444444445,
+          "value" : 0.0,
           "weight" : 1.0,
           "confidence" : 9.999999999999998,
           "usedValues" : [ {
@@ -1986,7 +1980,7 @@
               "type" : "CodeqlScore",
               "name" : "How a project uses CodeQL"
             },
-            "value" : 10.0,
+            "value" : 0.0,
             "weight" : 1.0,
             "confidence" : 10.0,
             "usedValues" : [ {
@@ -1995,7 +1989,7 @@
                 "type" : "BooleanFeature",
                 "name" : "If a project runs CodeQL checks for commits"
               },
-              "flag" : true,
+              "flag" : false,
               "explanation" : [ ]
             }, {
               "type" : "BooleanValue",
@@ -2003,7 +1997,7 @@
                 "type" : "BooleanFeature",
                 "name" : "If a project runs CodeQL scans"
               },
-              "flag" : true,
+              "flag" : false,
               "explanation" : [ ]
             }, {
               "type" : "LanguagesValue",
@@ -2727,5 +2721,5 @@
       }
     }
   },
-  "label" : [ "OssSecurityRating$SecurityLabel", "BAD" ]
+  "label" : [ "OssSecurityRating$SecurityLabel", "UNCLEAR" ]
 }
