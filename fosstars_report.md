@@ -1,6 +1,6 @@
 **Rating**: **BAD**
 
-**Score**: **3.59**, max score value is 10.0
+**Score**: **3.64**, max score value is 10.0
 
 **Confidence**: High (9.65, max confidence value is 10.0)
 
@@ -75,7 +75,7 @@ It used the following sub-scores:
     
 1.  **[Community commitment](#community-commitment)**: **0.0** (weight is 0.5)
     
-1.  **[Project activity](#project-activity)**: **9.53** (weight is 0.5)
+1.  **[Project activity](#project-activity)**: **10.0** (weight is 0.5)
     
 1.  **[Project popularity](#project-popularity)**: **0.0** (weight is 0.5)
     
@@ -118,11 +118,6 @@ You can set a CVSS threshold for vulnerabilities reported by OWASP Dependency Ch
 More info:
 1.  [OWASP Dependnecy Check](https://jeremylong.github.io/DependencyCheck/)
 1.  [Configuring OWASP Dependency Check](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/configuration.html)
-
-
-You can enable artifact signing in the project's build pipeline.
-More info:
-1.  [Apache Maven Jarsigner Plugin](https://maven.apache.org/plugins/maven-jarsigner-plugin/)
 
 
 You can enable NoHttp tool in the project's build pipeline.
@@ -213,7 +208,7 @@ This sub-score is based on 18 features:
 1.  **Does it have a security policy?** No
 1.  **Does it have a security team?** No
 1.  **Does it have executable binaries?** No
-1.  **Does it sign artifacts?** No
+1.  **Does it sign artifacts?** Yes
 1.  **Does it use AddressSanitizer?** No
 1.  **Does it use Dependabot?** Yes
 1.  **Does it use FindSecBugs?** No
@@ -224,7 +219,7 @@ This sub-score is based on 18 features:
 1.  **Does it use Snyk?** No
 1.  **Does it use UndefinedBehaviorSanitizer?** No
 1.  **Does it use nohttp?** No
-1.  **Does it use verified signed commits?** Yes
+1.  **Does it use verified signed commits?** No
 1.  **How is OWASP Dependency Check used?** Not used
 1.  **Is it included to OSS-Fuzz?** No
 
@@ -311,18 +306,18 @@ This sub-score is based on 3 features:
 
 ### Project activity
 
-Score: **9.53**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **10.0**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score evaluates how active a project is. It's based on number of commits and contributors in the last 3 months.
 
-59 commits in the last 3 months results to 9.08 points
-2 contributors increase the score value from 9.08 to 9.53
+71 commits in the last 3 months results to 10.00 points
+2 contributors increase the score value from 10.00 to 10.50
 
 This sub-score is based on 2 features:
 
 
 
-1.  **Number of commits in the last three months:** 59
+1.  **Number of commits in the last three months:** 71
 1.  **Number of contributors in the last three months:** 2
 
 
