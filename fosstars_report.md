@@ -1,6 +1,6 @@
 **Rating**: **BAD**
 
-**Score**: **3.64**, max score value is 10.0
+**Score**: **4.07**, max score value is 10.0
 
 **Confidence**: High (9.65, max confidence value is 10.0)
 
@@ -14,7 +14,7 @@ The rating is based on **security score for open-source projects**.
 
 It used the following sub-scores:
 
-1.  **[Security testing](#security-testing)**: **4.55** (weight is 1.0)
+1.  **[Security testing](#security-testing)**: **6.57** (weight is 1.0)
     1.  **[Dependency testing](#dependency-testing)**: **10.0** (weight is 1.0)
         1.  **[Dependabot score](#dependabot-score)**: **10.0** (weight is 1.0)
             
@@ -22,8 +22,8 @@ It used the following sub-scores:
             
         1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
             
-    1.  **[Static analysis](#static-analysis)**: **0.0** (weight is 1.0)
-        1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
+    1.  **[Static analysis](#static-analysis)**: **4.44** (weight is 1.0)
+        1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **10.0** (weight is 1.0)
             
         1.  **[Bandit score](#bandit-score)**: **0.0** (weight is 0.35)
             
@@ -44,7 +44,7 @@ It used the following sub-scores:
 1.  **[Security awareness](#security-awareness)**: **1.5** (weight is 0.9)
     
 1.  **[Vulnerability discovery and security testing](#vulnerability-discovery-and-security-testing)**: **2.0** (weight is 0.6)
-    1.  **[Security testing](#security-testing)**: **4.55** (weight is 1.0)
+    1.  **[Security testing](#security-testing)**: **6.57** (weight is 1.0)
         1.  **[Dependency testing](#dependency-testing)**: **10.0** (weight is 1.0)
             1.  **[Dependabot score](#dependabot-score)**: **10.0** (weight is 1.0)
                 
@@ -52,8 +52,8 @@ It used the following sub-scores:
                 
             1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
                 
-        1.  **[Static analysis](#static-analysis)**: **0.0** (weight is 1.0)
-            1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
+        1.  **[Static analysis](#static-analysis)**: **4.44** (weight is 1.0)
+            1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **10.0** (weight is 1.0)
                 
             1.  **[Bandit score](#bandit-score)**: **0.0** (weight is 0.35)
                 
@@ -84,16 +84,6 @@ It used the following sub-scores:
 
 
 # ## How to improve the rating
-
-You can open a pull request to enable CodeQL scans in the project. Make sure that the scans are run on pull requests.
-More info:
-1.  [How to enable CodeQL checks for pull requests](https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/enabling-code-scanning-for-a-repository#enabling-code-scanning-using-actions)
-
-
-You can open a pull request to enable CodeQL scans in the project.
-More info:
-1.  [How to enable CodeQL checks](https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/enabling-code-scanning-for-a-repository#enabling-code-scanning-using-actions)
-
 
 You can open a pull request to add a security policy for the project.
 More info:
@@ -154,7 +144,7 @@ Below are the details about all the used sub-scores.
 
 ### Security testing
 
-Score: **4.55**, confidence is 10.0 (max), weight is 1.0 (high)
+Score: **6.57**, confidence is 10.0 (max), weight is 1.0 (high)
 
 
 
@@ -171,8 +161,8 @@ This sub-score is based on the following sub-scores:
         
     1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
         
-1.  **[Static analysis](#static-analysis)**: **0.0** (weight is 1.0)
-    1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
+1.  **[Static analysis](#static-analysis)**: **4.44** (weight is 1.0)
+    1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **10.0** (weight is 1.0)
         
     1.  **[Bandit score](#bandit-score)**: **0.0** (weight is 0.35)
         
@@ -236,7 +226,7 @@ This sub-score is based on the following sub-score:
 
 
 
-1.  **[Security testing](#security-testing)**: **4.55** (weight is 1.0)
+1.  **[Security testing](#security-testing)**: **6.57** (weight is 1.0)
     1.  **[Dependency testing](#dependency-testing)**: **10.0** (weight is 1.0)
         1.  **[Dependabot score](#dependabot-score)**: **10.0** (weight is 1.0)
             
@@ -244,8 +234,8 @@ This sub-score is based on the following sub-score:
             
         1.  **[OWASP Dependency Check score](#owasp-dependency-check-score)**: **0.0** (weight is 1.0)
             
-    1.  **[Static analysis](#static-analysis)**: **0.0** (weight is 1.0)
-        1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
+    1.  **[Static analysis](#static-analysis)**: **4.44** (weight is 1.0)
+        1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **10.0** (weight is 1.0)
             
         1.  **[Bandit score](#bandit-score)**: **0.0** (weight is 0.35)
             
@@ -310,14 +300,14 @@ Score: **10.0**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score evaluates how active a project is. It's based on number of commits and contributors in the last 3 months.
 
-190 commits in the last 3 months results to 10.00 points
+194 commits in the last 3 months results to 10.00 points
 2 contributors increase the score value from 10.00 to 10.50
 
 This sub-score is based on 2 features:
 
 
 
-1.  **Number of commits in the last three months:** 190
+1.  **Number of commits in the last three months:** 194
 1.  **Number of contributors in the last three months:** 2
 
 
@@ -375,7 +365,7 @@ This sub-score is based on the following sub-scores:
 
 ### Static analysis
 
-Score: **0.0**, confidence is 10.0 (max), weight is 1.0 (high)
+Score: **4.44**, confidence is 10.0 (max), weight is 1.0 (high)
 
 
 
@@ -385,7 +375,7 @@ This sub-score is based on the following sub-scores:
 
 
 
-1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **0.0** (weight is 1.0)
+1.  **[How a project uses CodeQL](#how-a-project-uses-codeql)**: **10.0** (weight is 1.0)
     
 1.  **[Bandit score](#bandit-score)**: **0.0** (weight is 0.35)
     
@@ -504,7 +494,7 @@ This sub-score is based on 3 features:
 
 ### How a project uses CodeQL
 
-Score: **0.0**, confidence is 10.0 (max), weight is 1.0 (high)
+Score: **10.0**, confidence is 10.0 (max), weight is 1.0 (high)
 
 
 
@@ -514,8 +504,8 @@ This sub-score is based on 3 features:
 
 
 
-1.  **Does it run CodeQL scans?** No
-1.  **Does it use CodeQL checks for pull requests?** No
+1.  **Does it run CodeQL scans?** Yes
+1.  **Does it use CodeQL checks for pull requests?** Yes
 1.  **Programming languages:** JAVA, PYTHON, OTHER
 
 
